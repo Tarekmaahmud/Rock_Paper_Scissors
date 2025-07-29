@@ -7,32 +7,32 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <h1>Rock Paper Scissors</h1>
-        </header>
-        <main>
-            <div class="container ">
-                <div class=" img_1c box"></div>
-                <div class=" img_2c box"></div>
-                <div class=" img_3c box"></div>
-
+        <h1>Rock Paper Scissors</h1>
+        <div class="choices_cs">
+            <div class="choice_cs " id="rock">
+                <img src="/images/rock.png" alt>
             </div>
-            <div class="Score_bord">
-                <div>
-                    <p>0</p>
-                    <p>You</p>
-                </div>
-                <div>
-                    <p>0</p>
-                    <p>Comp</p>
-                </div>
-
+            <div class="choice_cs" id="paper">
+                <img src="/images/paper.png" alt>
             </div>
-            <div class="Pickup_div">
-                <button class="Pickup_btn">Pick Your move</button>
+            <div class="choice_cs" id="scissors">
+                <img src="/images/scissors.png" alt>
             </div>
-        </main>
+        </div>
 
+        <div class="score_board_cs">
+            <div class="score_cs">
+                <p id="user_score_cs">0</p>
+                <p>You</p>
+            </div>
+            <div class="score_cs">
+                <p id="comp_score_cs">0</p>
+                <p>Comp</p>
+            </div>
+        </div>
+        <div class="msg_container_cs">
+            <p class="msg_cs">Play Your Move</p>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
